@@ -1,3 +1,6 @@
+%Take grayscale image of size 512x512 and find the differenec image between
+%original and the image obtained by last three bits(MSB)
+
 image = imread('images/image.jpg');
 mask = 224; %11100000
 image_msb = bitand(image,mask);
