@@ -1,4 +1,4 @@
-%Take grayscale image of size 512x512, add some solat and pepper noise and
+%Take grayscale image of size 512x512, add some salt and pepper noise and
 %apply average and median spatial filters with 5x5 mask and observe their
 %performance for noise suppression in term of PSNR
 
